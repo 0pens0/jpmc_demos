@@ -1,0 +1,22 @@
+[
+  {
+    "id": "CL",
+    "url": "http://client.99990-900002-a05-t3-dev:9000/status"
+  },
+  {
+    "id": "PS",
+    "url": "http://psaas.99991-900001-a05-t1-dev:443/status"
+  },
+  {
+    "id": "WD",
+    "url": "http://web.99994-990004-a05-t2-dev:443/status"
+  },
+  {
+    "id": "AD",
+    "url": "http://app.99994-990004-a05-t3-dev:9443/status"
+  },
+  {
+    "id": "DD",
+    "url": "http://db.99993-990003-a05-t4-dev:1521/status"
+  }
+]

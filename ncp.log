@@ -1,0 +1,499 @@
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': 'be0e7dd0-b134-48a2-b674-6badac0fb561', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}}" from ncp CLI client
+[ncp GreenThread-18 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': 'be0e7dd0-b134-48a2-b674-6badac0fb561', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}} CLI server
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '2bb60141-3cd4-4ec7-b2ce-a59fdf3246ca', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}}" from ncp CLI client
+[ncp GreenThread-8 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '2bb60141-3cd4-4ec7-b2ce-a59fdf3246ca', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}} CLI server
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '8012c887-5a75-4d73-9f25-fa7aab52fc6a', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}}" from ncp CLI client
+[ncp GreenThread-7 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '8012c887-5a75-4d73-9f25-fa7aab52fc6a', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}} CLI server
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': 'ba230e0c-320e-45e8-a30e-7fb7125072bf', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}}" from ncp CLI client
+[ncp GreenThread-7 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': 'ba230e0c-320e-45e8-a30e-7fb7125072bf', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}} CLI server
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-53 I] nsx_ujo.common.controller PodController worker 3 start sync [W] 194926ca-3c8d-4167-b10d-c4947efc9f92, queue size 0
+[ncp GreenThread-53 I] nsx_ujo.common.controller PodController worker 3 done sync 194926ca-3c8d-4167-b10d-c4947efc9f92
+[ncp GreenThread-51 I] nsx_ujo.common.controller PodController worker 1 start sync [W] 194926ca-3c8d-4167-b10d-c4947efc9f92, queue size 0
+[ncp GreenThread-51 I] nsx_ujo.common.controller PodController worker 1 done sync 194926ca-3c8d-4167-b10d-c4947efc9f92
+[ncp GreenThread-54 I] nsx_ujo.common.controller PodController worker 4 start sync [W] 194926ca-3c8d-4167-b10d-c4947efc9f92, queue size 0
+[ncp GreenThread-54 I] nsx_ujo.common.controller PodController worker 4 done sync 194926ca-3c8d-4167-b10d-c4947efc9f92
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': 'f0d1789f-de46-49f7-8cea-a24b37cb6969', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}}" from ncp CLI client
+[ncp GreenThread-18 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': 'f0d1789f-de46-49f7-8cea-a24b37cb6969', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}} CLI server
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '76b8aa2d-8a1a-4372-84a4-765626094634', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}}" from ncp CLI client
+[ncp GreenThread-21 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '76b8aa2d-8a1a-4372-84a4-765626094634', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}} CLI server
+[ncp GreenThread-124 I] nsx_ujo.ncp.inventory Inventory send out update [('CREATE', {'external_id': '194926ca-3c8d-4167-b10d-c4947efc9f92', 'display_name': 'tmc-agent-installer-1623347100-q4f6n', 'status': 'DOWN', 'origin_properties': [], 'resource_type': 'ContainerApplicationInstance', 'container_project_id': '0cef4134-5c11-4a09-b304-c67f0bdcd857', 'network_status': 'HEALTHY', 'network_errors': [], 'tags': [{'scope': 'dis:k8s:controller-uid', 'tag': '8ce077bc-01b1-4014-b9e1-c61284a1f822'}, {'scope': 'dis:k8s:job-name', 'tag': 'tmc-agent-installer-1623347100'}, {'scope': 'dis:k8s:tmc.cloud.vmware.com/exclude-from-detach', 'tag': 'true'}], 'container_application_ids': [], 'cluster_node_id': '8b54792c-98b2-4950-a2fc-6059d35d6313'})]
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-56 I] nsx_ujo.common.controller PodController worker 6 start sync [W] 194926ca-3c8d-4167-b10d-c4947efc9f92, queue size 0
+[ncp GreenThread-56 I] nsx_ujo.common.controller PodController worker 6 done sync 194926ca-3c8d-4167-b10d-c4947efc9f92
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-50 I] nsx_ujo.common.controller PodController worker 0 start sync [W] 53ff9cb9-131c-4d07-819e-72f00a8a1644, queue size 0
+[ncp GreenThread-50 I] nsx_ujo.common.controller PodController worker 0 done sync 53ff9cb9-131c-4d07-819e-72f00a8a1644
+[ncp GreenThread-51 I] nsx_ujo.common.controller PodController worker 1 start sync [W] 53ff9cb9-131c-4d07-819e-72f00a8a1644, queue size 0
+[ncp GreenThread-51 I] nsx_ujo.common.controller PodController worker 1 done sync 53ff9cb9-131c-4d07-819e-72f00a8a1644
+[ncp GreenThread-50 I] nsx_ujo.common.controller PodController worker 0 start sync [W] 194926ca-3c8d-4167-b10d-c4947efc9f92, queue size 0
+[ncp GreenThread-50 I] nsx_ujo.common.controller PodController worker 0 done sync 194926ca-3c8d-4167-b10d-c4947efc9f92
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-124 I] nsx_ujo.ncp.inventory Inventory send out update [('DELETE', {'resource_type': 'ContainerApplicationInstance', 'external_id': '53ff9cb9-131c-4d07-819e-72f00a8a1644'})]
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '14bb4aa1-92d9-44b3-81bf-1b5d5640c0f7', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}}" from ncp CLI client
+[ncp GreenThread-19 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '14bb4aa1-92d9-44b3-81bf-1b5d5640c0f7', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}} CLI server
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': 'f037b78d-bde5-4eaa-ae52-5b7a37f4d326', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}}" from ncp CLI client
+[ncp GreenThread-21 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': 'f037b78d-bde5-4eaa-ae52-5b7a37f4d326', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}} CLI server
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-33 I] nsx_ujo.common.controller NamespaceController worker 2 start sync [G] 9325558e-c17c-4671-87ed-ecfcaf55cbff, queue size 0
+[ncp GreenThread-33 I] nsx_ujo.ncp.k8s.namespace_controller Namespace 9325558e-c17c-4671-87ed-ecfcaf55cbff has been deleted
+[ncp GreenThread-33 I] nsx_ujo.ncp.nsx.policy.project_service Deleting project 9325558e-c17c-4671-87ed-ecfcaf55cbff
+[ncp GreenThread-33 I] nsx_ujo.ncp.nsx.policy.project_service Deleted SNAT rules [] for project 9325558e-c17c-4671-87ed-ecfcaf55cbff
+[ncp GreenThread-40 I] nsx_ujo.common.controller NetworkPolicyController worker 2 start sync [C] 2e660d1c-01d0-472a-bc00-592e2f656e57, queue size 2
+[ncp GreenThread-40 I] nsx_ujo.common.controller NetworkPolicyController worker 2 done sync 2e660d1c-01d0-472a-bc00-592e2f656e57
+[ncp GreenThread-38 I] nsx_ujo.common.controller NetworkPolicyController worker 0 start sync [C] 6bb521e0-55eb-4753-ab27-88d098f2422f, queue size 1
+[ncp GreenThread-38 I] nsx_ujo.common.controller NetworkPolicyController worker 0 done sync 6bb521e0-55eb-4753-ab27-88d098f2422f
+[ncp GreenThread-41 I] nsx_ujo.common.controller NetworkPolicyController worker 3 start sync [C] 9e39fb36-dc68-4a4c-b385-b7c92e6b42ab, queue size 0
+[ncp GreenThread-41 I] nsx_ujo.common.controller NetworkPolicyController worker 3 done sync 9e39fb36-dc68-4a4c-b385-b7c92e6b42ab
+[ncp GreenThread-33 W] vmware_nsxlib.v3.client The HTTP request returned error code 400, whereas 200 response codes were expected. Response body {'httpStatus': 'BAD_REQUEST', 'error_code': 500030, 'module_name': 'Policy', 'error_message': 'The object path=[/infra/segments/vm-domain-c8:0917850a-07d7-4ebf-b18f--vif-default-network-9325558e-c17c-4671-8-0] cannot be deleted as either it has children or it is being referenced by other objects path=[/infra/domains/default/groups/99993-990003-1003-dev-ns-seg]'}
+[ncp GreenThread-33 E security="True" errorCode="NCP00133"] nsx_ujo.ncp.nsx.policy.nsxapi delete_segment failed, cause: The object cannot be deleted as either it has children or it is being referenced by other objects, args: ('vm-domain-c8:0917850a-07d7-4ebf-b18f--vif-default-network-9325558e-c17c-4671-8[truncated]..., kwargs: {}
+[ncp GreenThread-33 W] nsx_ujo.common.controller NamespaceController worker 2 failed to sync 9325558e-c17c-4671-87ed-ecfcaf55cbff due to nsx manager exception: Unexpected error from backend manager (['10.193.132.15:443', '10.193.132.17:443', '10.193.132.18:443', '10.193.132.16:443']) for : The object cannot be deleted as either it has children or it is being referenced by other objects
+[ncp GreenThread-33 W] nsx_ujo.common.controller NamespaceController encountered same ManagerError when sync 9325558e-c17c-4671-87ed-ecfcaf55cbff for 300 times consecutively
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '73e770e4-b550-46a0-9dbe-6ac597574244', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}}" from ncp CLI client
+[ncp GreenThread-19 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '73e770e4-b550-46a0-9dbe-6ac597574244', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}} CLI server
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '0806cce9-762a-445f-994a-00b278c9f901', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}}" from ncp CLI client
+[ncp GreenThread-18 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '0806cce9-762a-445f-994a-00b278c9f901', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}} CLI server
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': 'b4fc3ec4-6909-45ed-aeb6-55e4935ac383', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}}" from ncp CLI client
+[ncp GreenThread-8 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': 'b4fc3ec4-6909-45ed-aeb6-55e4935ac383', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}} CLI server
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '3b8b54e3-7d2f-47de-86f5-19764cee806a', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}}" from ncp CLI client
+[ncp GreenThread-7 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '3b8b54e3-7d2f-47de-86f5-19764cee806a', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}} CLI server
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 8b54792c-98b2-4950-a2fc-6059d35d6313, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.ncp.k8s.node_controller Skip handling node 8b54792c-98b2-4950-a2fc-6059d35d6313 event
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 8b54792c-98b2-4950-a2fc-6059d35d6313
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': 'ac7bd818-f09e-44de-aea9-a0c6805dac0c', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}}" from ncp CLI client
+[ncp GreenThread-8 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': 'ac7bd818-f09e-44de-aea9-a0c6805dac0c', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}} CLI server
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '389a0fbb-4c41-4f0f-b353-b83b99da6611', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}}" from ncp CLI client
+[ncp GreenThread-18 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '389a0fbb-4c41-4f0f-b353-b83b99da6611', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}} CLI server
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': 'ff13c56b-55d4-41fa-95a6-584da6174f3e', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}}" from ncp CLI client
+[ncp GreenThread-19 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': 'ff13c56b-55d4-41fa-95a6-584da6174f3e', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}} CLI server
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '749f4b38-850f-4cd6-b093-26356caea639', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}}" from ncp CLI client
+[ncp GreenThread-19 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '749f4b38-850f-4cd6-b093-26356caea639', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}} CLI server
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-57 I] nsx_ujo.common.controller PodController worker 7 start sync [W] e37b6405-a19b-4245-a736-bb70b5d651e7, queue size 0
+[ncp GreenThread-57 I] nsx_ujo.common.controller PodController worker 7 done sync e37b6405-a19b-4245-a736-bb70b5d651e7
+[ncp GreenThread-52 I] nsx_ujo.common.controller PodController worker 2 start sync [W] e37b6405-a19b-4245-a736-bb70b5d651e7, queue size 0
+[ncp GreenThread-52 I] nsx_ujo.common.controller PodController worker 2 done sync e37b6405-a19b-4245-a736-bb70b5d651e7
+[ncp GreenThread-57 I] nsx_ujo.common.controller PodController worker 7 start sync [W] e37b6405-a19b-4245-a736-bb70b5d651e7, queue size 0
+[ncp GreenThread-57 I] nsx_ujo.common.controller PodController worker 7 done sync e37b6405-a19b-4245-a736-bb70b5d651e7
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '4f134530-5bb8-4798-9f8a-118aac6dbe61', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}}" from ncp CLI client
+[ncp GreenThread-21 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '4f134530-5bb8-4798-9f8a-118aac6dbe61', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}} CLI server
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '8610c91e-b2e1-4674-b68a-6fddc89df0db', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}}" from ncp CLI client
+[ncp GreenThread-7 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '8610c91e-b2e1-4674-b68a-6fddc89df0db', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}} CLI server
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-124 I] nsx_ujo.ncp.inventory Inventory send out update [('CREATE', {'external_id': 'e37b6405-a19b-4245-a736-bb70b5d651e7', 'display_name': 'tmc-agent-installer-1623347160-gb265', 'status': 'DOWN', 'origin_properties': [], 'resource_type': 'ContainerApplicationInstance', 'container_project_id': '0cef4134-5c11-4a09-b304-c67f0bdcd857', 'network_status': 'HEALTHY', 'network_errors': [], 'tags': [{'scope': 'dis:k8s:controller-uid', 'tag': 'e462a5c2-21cc-42f1-95b1-b3f256b2875d'}, {'scope': 'dis:k8s:job-name', 'tag': 'tmc-agent-installer-1623347160'}, {'scope': 'dis:k8s:tmc.cloud.vmware.com/exclude-from-detach', 'tag': 'true'}], 'container_application_ids': [], 'cluster_node_id': '888e838d-b61c-4039-9504-451ce3c2251c'})]
+[ncp GreenThread-50 I] nsx_ujo.common.controller PodController worker 0 start sync [W] 194926ca-3c8d-4167-b10d-c4947efc9f92, queue size 0
+[ncp GreenThread-50 I] nsx_ujo.common.controller PodController worker 0 done sync 194926ca-3c8d-4167-b10d-c4947efc9f92
+[ncp GreenThread-52 I] nsx_ujo.common.controller PodController worker 2 start sync [W] 194926ca-3c8d-4167-b10d-c4947efc9f92, queue size 0
+[ncp GreenThread-52 I] nsx_ujo.common.controller PodController worker 2 done sync 194926ca-3c8d-4167-b10d-c4947efc9f92
+[ncp GreenThread-55 I] nsx_ujo.common.controller PodController worker 5 start sync [W] e37b6405-a19b-4245-a736-bb70b5d651e7, queue size 0
+[ncp GreenThread-55 I] nsx_ujo.common.controller PodController worker 5 done sync e37b6405-a19b-4245-a736-bb70b5d651e7
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-124 I] nsx_ujo.ncp.inventory Inventory send out update [('DELETE', {'resource_type': 'ContainerApplicationInstance', 'external_id': '194926ca-3c8d-4167-b10d-c4947efc9f92'})]
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': 'b4483d76-f701-4146-8d45-09eaf3e4395b', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}}" from ncp CLI client
+[ncp GreenThread-8 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': 'b4483d76-f701-4146-8d45-09eaf3e4395b', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}} CLI server
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '624ca6d2-e018-4ea5-878f-2eea21ce9bd3', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}}" from ncp CLI client
+[ncp GreenThread-18 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '624ca6d2-e018-4ea5-878f-2eea21ce9bd3', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}} CLI server
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-31 I] nsx_ujo.common.controller NamespaceController worker 0 start sync [G] 9325558e-c17c-4671-87ed-ecfcaf55cbff, queue size 0
+[ncp GreenThread-31 I] nsx_ujo.ncp.k8s.namespace_controller Namespace 9325558e-c17c-4671-87ed-ecfcaf55cbff has been deleted
+[ncp GreenThread-31 I] nsx_ujo.ncp.nsx.policy.project_service Deleting project 9325558e-c17c-4671-87ed-ecfcaf55cbff
+[ncp GreenThread-31 I] nsx_ujo.ncp.nsx.policy.project_service Deleted SNAT rules [] for project 9325558e-c17c-4671-87ed-ecfcaf55cbff
+[ncp GreenThread-39 I] nsx_ujo.common.controller NetworkPolicyController worker 1 start sync [C] 2e660d1c-01d0-472a-bc00-592e2f656e57, queue size 2
+[ncp GreenThread-39 I] nsx_ujo.common.controller NetworkPolicyController worker 1 done sync 2e660d1c-01d0-472a-bc00-592e2f656e57
+[ncp GreenThread-38 I] nsx_ujo.common.controller NetworkPolicyController worker 0 start sync [C] 6bb521e0-55eb-4753-ab27-88d098f2422f, queue size 1
+[ncp GreenThread-38 I] nsx_ujo.common.controller NetworkPolicyController worker 0 done sync 6bb521e0-55eb-4753-ab27-88d098f2422f
+[ncp GreenThread-40 I] nsx_ujo.common.controller NetworkPolicyController worker 2 start sync [C] 9e39fb36-dc68-4a4c-b385-b7c92e6b42ab, queue size 0
+[ncp GreenThread-40 I] nsx_ujo.common.controller NetworkPolicyController worker 2 done sync 9e39fb36-dc68-4a4c-b385-b7c92e6b42ab
+[ncp GreenThread-31 W] vmware_nsxlib.v3.client The HTTP request returned error code 400, whereas 200 response codes were expected. Response body {'httpStatus': 'BAD_REQUEST', 'error_code': 500030, 'module_name': 'Policy', 'error_message': 'The object path=[/infra/segments/vm-domain-c8:0917850a-07d7-4ebf-b18f--vif-default-network-9325558e-c17c-4671-8-0] cannot be deleted as either it has children or it is being referenced by other objects path=[/infra/domains/default/groups/99993-990003-1003-dev-ns-seg]'}
+[ncp GreenThread-31 E security="True" errorCode="NCP00133"] nsx_ujo.ncp.nsx.policy.nsxapi delete_segment failed, cause: The object cannot be deleted as either it has children or it is being referenced by other objects, args: ('vm-domain-c8:0917850a-07d7-4ebf-b18f--vif-default-network-9325558e-c17c-4671-8[truncated]..., kwargs: {}
+[ncp GreenThread-31 W] nsx_ujo.common.controller NamespaceController worker 0 failed to sync 9325558e-c17c-4671-87ed-ecfcaf55cbff due to nsx manager exception: Unexpected error from backend manager (['10.193.132.15:443', '10.193.132.17:443', '10.193.132.18:443', '10.193.132.16:443']) for : The object cannot be deleted as either it has children or it is being referenced by other objects
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '79ec1820-803a-4195-a905-49d596f00197', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}}" from ncp CLI client
+[ncp GreenThread-18 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '79ec1820-803a-4195-a905-49d596f00197', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}} CLI server
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '2e682c56-8cb6-41da-87d9-b59ee16ec96d', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}}" from ncp CLI client
+[ncp GreenThread-8 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '2e682c56-8cb6-41da-87d9-b59ee16ec96d', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}} CLI server
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '97af0b3d-4e88-4c45-907f-a06e577a349c', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}}" from ncp CLI client
+[ncp GreenThread-21 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '97af0b3d-4e88-4c45-907f-a06e577a349c', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}} CLI server
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': 'd2782cac-e430-4cc7-89aa-f4ebba5e87e1', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}}" from ncp CLI client
+[ncp GreenThread-7 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': 'd2782cac-e430-4cc7-89aa-f4ebba5e87e1', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}} CLI server
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '0ce634b7-5836-4662-8c1d-887d44be6ae5', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}}" from ncp CLI client
+[ncp GreenThread-19 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '0ce634b7-5836-4662-8c1d-887d44be6ae5', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}} CLI server
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '9e36022d-b109-4b2e-a5a8-e1bfb491ac5d', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}}" from ncp CLI client
+[ncp GreenThread-8 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '9e36022d-b109-4b2e-a5a8-e1bfb491ac5d', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}} CLI server
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': 'dde12157-197e-4eb3-9c27-9d6b277790d3', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}}" from ncp CLI client
+[ncp GreenThread-18 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': 'dde12157-197e-4eb3-9c27-9d6b277790d3', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}} CLI server
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': 'aa1df3e5-8eac-49c0-b022-5a934a0a26d0', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}}" from ncp CLI client
+[ncp GreenThread-18 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': 'aa1df3e5-8eac-49c0-b022-5a934a0a26d0', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}} CLI server
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-53 I] nsx_ujo.common.controller PodController worker 3 start sync [W] 0e64ba40-1117-46ee-9d0c-75ba0855c827, queue size 0
+[ncp GreenThread-53 I] nsx_ujo.common.controller PodController worker 3 done sync 0e64ba40-1117-46ee-9d0c-75ba0855c827
+[ncp GreenThread-57 I] nsx_ujo.common.controller PodController worker 7 start sync [W] 0e64ba40-1117-46ee-9d0c-75ba0855c827, queue size 0
+[ncp GreenThread-57 I] nsx_ujo.common.controller PodController worker 7 done sync 0e64ba40-1117-46ee-9d0c-75ba0855c827
+[ncp GreenThread-51 I] nsx_ujo.common.controller PodController worker 1 start sync [W] 0e64ba40-1117-46ee-9d0c-75ba0855c827, queue size 0
+[ncp GreenThread-51 I] nsx_ujo.common.controller PodController worker 1 done sync 0e64ba40-1117-46ee-9d0c-75ba0855c827
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '2a2765ad-17a9-4253-8492-fa58fbe0bb84', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}}" from ncp CLI client
+[ncp GreenThread-21 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '2a2765ad-17a9-4253-8492-fa58fbe0bb84', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}} CLI server
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '2778b342-c45d-48a1-a708-266b19f376de', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}}" from ncp CLI client
+[ncp GreenThread-7 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '2778b342-c45d-48a1-a708-266b19f376de', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}} CLI server
+[ncp GreenThread-124 I] nsx_ujo.ncp.inventory Inventory send out update [('CREATE', {'external_id': '0e64ba40-1117-46ee-9d0c-75ba0855c827', 'display_name': 'tmc-agent-installer-1623347220-f22tg', 'status': 'DOWN', 'origin_properties': [], 'resource_type': 'ContainerApplicationInstance', 'container_project_id': '0cef4134-5c11-4a09-b304-c67f0bdcd857', 'network_status': 'HEALTHY', 'network_errors': [], 'tags': [{'scope': 'dis:k8s:controller-uid', 'tag': '3e5d97cf-a94d-4738-9e2c-0892848ce1e7'}, {'scope': 'dis:k8s:job-name', 'tag': 'tmc-agent-installer-1623347220'}, {'scope': 'dis:k8s:tmc.cloud.vmware.com/exclude-from-detach', 'tag': 'true'}], 'container_application_ids': [], 'cluster_node_id': 'c22225ab-f044-4fb1-9274-f2d962d0e523'})]
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-56 I] nsx_ujo.common.controller PodController worker 6 start sync [W] e37b6405-a19b-4245-a736-bb70b5d651e7, queue size 0
+[ncp GreenThread-56 I] nsx_ujo.common.controller PodController worker 6 done sync e37b6405-a19b-4245-a736-bb70b5d651e7
+[ncp GreenThread-57 I] nsx_ujo.common.controller PodController worker 7 start sync [W] e37b6405-a19b-4245-a736-bb70b5d651e7, queue size 0
+[ncp GreenThread-57 I] nsx_ujo.common.controller PodController worker 7 done sync e37b6405-a19b-4245-a736-bb70b5d651e7
+[ncp GreenThread-54 I] nsx_ujo.common.controller PodController worker 4 start sync [W] 0e64ba40-1117-46ee-9d0c-75ba0855c827, queue size 0
+[ncp GreenThread-54 I] nsx_ujo.common.controller PodController worker 4 done sync 0e64ba40-1117-46ee-9d0c-75ba0855c827
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-124 I] nsx_ujo.ncp.inventory Inventory send out update [('DELETE', {'resource_type': 'ContainerApplicationInstance', 'external_id': 'e37b6405-a19b-4245-a736-bb70b5d651e7'})]
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': 'ec141c9f-e3e1-4a0a-8e48-d56d956f94dc', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}}" from ncp CLI client
+[ncp GreenThread-7 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': 'ec141c9f-e3e1-4a0a-8e48-d56d956f94dc', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}} CLI server
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': 'e0debc7d-cdc8-4ba2-a42d-e629e16de901', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}}" from ncp CLI client
+[ncp GreenThread-8 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': 'e0debc7d-cdc8-4ba2-a42d-e629e16de901', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}} CLI server
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-34 I] nsx_ujo.common.controller NamespaceController worker 3 start sync [G] 9325558e-c17c-4671-87ed-ecfcaf55cbff, queue size 0
+[ncp GreenThread-34 I] nsx_ujo.ncp.k8s.namespace_controller Namespace 9325558e-c17c-4671-87ed-ecfcaf55cbff has been deleted
+[ncp GreenThread-34 I] nsx_ujo.ncp.nsx.policy.project_service Deleting project 9325558e-c17c-4671-87ed-ecfcaf55cbff
+[ncp GreenThread-34 I] nsx_ujo.ncp.nsx.policy.project_service Deleted SNAT rules [] for project 9325558e-c17c-4671-87ed-ecfcaf55cbff
+[ncp GreenThread-41 I] nsx_ujo.common.controller NetworkPolicyController worker 3 start sync [C] 2e660d1c-01d0-472a-bc00-592e2f656e57, queue size 2
+[ncp GreenThread-41 I] nsx_ujo.common.controller NetworkPolicyController worker 3 done sync 2e660d1c-01d0-472a-bc00-592e2f656e57
+[ncp GreenThread-40 I] nsx_ujo.common.controller NetworkPolicyController worker 2 start sync [C] 6bb521e0-55eb-4753-ab27-88d098f2422f, queue size 1
+[ncp GreenThread-40 I] nsx_ujo.common.controller NetworkPolicyController worker 2 done sync 6bb521e0-55eb-4753-ab27-88d098f2422f
+[ncp GreenThread-39 I] nsx_ujo.common.controller NetworkPolicyController worker 1 start sync [C] 9e39fb36-dc68-4a4c-b385-b7c92e6b42ab, queue size 0
+[ncp GreenThread-39 I] nsx_ujo.common.controller NetworkPolicyController worker 1 done sync 9e39fb36-dc68-4a4c-b385-b7c92e6b42ab
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-34 W] vmware_nsxlib.v3.client The HTTP request returned error code 400, whereas 200 response codes were expected. Response body {'httpStatus': 'BAD_REQUEST', 'error_code': 500030, 'module_name': 'Policy', 'error_message': 'The object path=[/infra/segments/vm-domain-c8:0917850a-07d7-4ebf-b18f--vif-default-network-9325558e-c17c-4671-8-0] cannot be deleted as either it has children or it is being referenced by other objects path=[/infra/domains/default/groups/99993-990003-1003-dev-ns-seg]'}
+[ncp GreenThread-34 E security="True" errorCode="NCP00133"] nsx_ujo.ncp.nsx.policy.nsxapi delete_segment failed, cause: The object cannot be deleted as either it has children or it is being referenced by other objects, args: ('vm-domain-c8:0917850a-07d7-4ebf-b18f--vif-default-network-9325558e-c17c-4671-8[truncated]..., kwargs: {}
+[ncp GreenThread-34 W] nsx_ujo.common.controller NamespaceController worker 3 failed to sync 9325558e-c17c-4671-87ed-ecfcaf55cbff due to nsx manager exception: Unexpected error from backend manager (['10.193.132.15:443', '10.193.132.17:443', '10.193.132.18:443', '10.193.132.16:443']) for : The object cannot be deleted as either it has children or it is being referenced by other objects
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': 'c6314a2e-87a2-4d3b-affc-e55dc472d095', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}}" from ncp CLI client
+[ncp GreenThread-19 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': 'c6314a2e-87a2-4d3b-affc-e55dc472d095', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}} CLI server
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': 'c1a6f891-3546-4995-8dd1-809353c6367b', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}}" from ncp CLI client
+[ncp GreenThread-18 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': 'c1a6f891-3546-4995-8dd1-809353c6367b', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}} CLI server
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 888e838d-b61c-4039-9504-451ce3c2251c, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.ncp.k8s.node_controller Skip handling node 888e838d-b61c-4039-9504-451ce3c2251c event
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 888e838d-b61c-4039-9504-451ce3c2251c
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '38ccdb96-11ec-492e-ba41-be5774dbe297', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}}" from ncp CLI client
+[ncp GreenThread-21 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '38ccdb96-11ec-492e-ba41-be5774dbe297', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}} CLI server
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': 'cbd1bff6-75b2-470b-9c5e-3fa48c308efe', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}}" from ncp CLI client
+[ncp GreenThread-18 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': 'cbd1bff6-75b2-470b-9c5e-3fa48c308efe', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}} CLI server
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '22f84c05-7773-4600-b69f-ac08a2d507c3', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}}" from ncp CLI client
+[ncp GreenThread-21 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '22f84c05-7773-4600-b69f-ac08a2d507c3', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}} CLI server
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '1b757a1b-3f76-4575-aacf-e67099ce0b45', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}}" from ncp CLI client
+[ncp GreenThread-19 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '1b757a1b-3f76-4575-aacf-e67099ce0b45', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}} CLI server
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '382ba984-8be3-40d3-8462-262f39ae8f28', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}}" from ncp CLI client
+[ncp GreenThread-7 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '382ba984-8be3-40d3-8462-262f39ae8f28', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}} CLI server
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '467214e4-79b5-4542-b231-061e600125ca', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}}" from ncp CLI client
+[ncp GreenThread-8 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '467214e4-79b5-4542-b231-061e600125ca', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}} CLI server
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-51 I] nsx_ujo.common.controller PodController worker 1 start sync [W] efbb2f6b-0400-4515-a2c2-5a092340c241, queue size 0
+[ncp GreenThread-51 I] nsx_ujo.common.controller PodController worker 1 done sync efbb2f6b-0400-4515-a2c2-5a092340c241
+[ncp GreenThread-52 I] nsx_ujo.common.controller PodController worker 2 start sync [W] efbb2f6b-0400-4515-a2c2-5a092340c241, queue size 0
+[ncp GreenThread-52 I] nsx_ujo.common.controller PodController worker 2 done sync efbb2f6b-0400-4515-a2c2-5a092340c241
+[ncp GreenThread-51 I] nsx_ujo.common.controller PodController worker 1 start sync [W] efbb2f6b-0400-4515-a2c2-5a092340c241, queue size 0
+[ncp GreenThread-51 I] nsx_ujo.common.controller PodController worker 1 done sync efbb2f6b-0400-4515-a2c2-5a092340c241
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '396a4ff0-67d8-4ba7-a100-5449a154117a', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}}" from ncp CLI client
+[ncp GreenThread-21 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '396a4ff0-67d8-4ba7-a100-5449a154117a', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}} CLI server
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '5b15f9d0-32d2-4dd9-871a-381f34ce5b63', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}}" from ncp CLI client
+[ncp GreenThread-7 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '5b15f9d0-32d2-4dd9-871a-381f34ce5b63', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}} CLI server
+[ncp GreenThread-124 I] nsx_ujo.ncp.inventory Inventory send out update [('CREATE', {'external_id': 'efbb2f6b-0400-4515-a2c2-5a092340c241', 'display_name': 'tmc-agent-installer-1623347280-6vqfq', 'status': 'DOWN', 'origin_properties': [], 'resource_type': 'ContainerApplicationInstance', 'container_project_id': '0cef4134-5c11-4a09-b304-c67f0bdcd857', 'network_status': 'HEALTHY', 'network_errors': [], 'tags': [{'scope': 'dis:k8s:controller-uid', 'tag': '9895f3a2-ef4b-4a80-9e2f-b7a10b6a8404'}, {'scope': 'dis:k8s:job-name', 'tag': 'tmc-agent-installer-1623347280'}, {'scope': 'dis:k8s:tmc.cloud.vmware.com/exclude-from-detach', 'tag': 'true'}], 'container_application_ids': [], 'cluster_node_id': '888e838d-b61c-4039-9504-451ce3c2251c'})]
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-53 I] nsx_ujo.common.controller PodController worker 3 start sync [W] efbb2f6b-0400-4515-a2c2-5a092340c241, queue size 0
+[ncp GreenThread-53 I] nsx_ujo.common.controller PodController worker 3 done sync efbb2f6b-0400-4515-a2c2-5a092340c241
+[ncp GreenThread-51 I] nsx_ujo.common.controller PodController worker 1 start sync [W] 0e64ba40-1117-46ee-9d0c-75ba0855c827, queue size 0
+[ncp GreenThread-51 I] nsx_ujo.common.controller PodController worker 1 done sync 0e64ba40-1117-46ee-9d0c-75ba0855c827
+[ncp GreenThread-57 I] nsx_ujo.common.controller PodController worker 7 start sync [W] 0e64ba40-1117-46ee-9d0c-75ba0855c827, queue size 0
+[ncp GreenThread-57 I] nsx_ujo.common.controller PodController worker 7 done sync 0e64ba40-1117-46ee-9d0c-75ba0855c827
+[ncp GreenThread-50 I] nsx_ujo.common.controller PodController worker 0 start sync [W] efbb2f6b-0400-4515-a2c2-5a092340c241, queue size 0
+[ncp GreenThread-50 I] nsx_ujo.common.controller PodController worker 0 done sync efbb2f6b-0400-4515-a2c2-5a092340c241
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-124 I] nsx_ujo.ncp.inventory Inventory send out update [('DELETE', {'resource_type': 'ContainerApplicationInstance', 'external_id': '0e64ba40-1117-46ee-9d0c-75ba0855c827'})]
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '031ae3cd-eb3b-4265-a896-0450bc74f48b', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}}" from ncp CLI client
+[ncp GreenThread-18 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '031ae3cd-eb3b-4265-a896-0450bc74f48b', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}} CLI server
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '8ce582ea-dc2c-4d62-959f-e7a537be9019', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}}" from ncp CLI client
+[ncp GreenThread-8 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '8ce582ea-dc2c-4d62-959f-e7a537be9019', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}} CLI server
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-34 I] nsx_ujo.common.controller NamespaceController worker 3 start sync [G] 9325558e-c17c-4671-87ed-ecfcaf55cbff, queue size 0
+[ncp GreenThread-34 I] nsx_ujo.ncp.k8s.namespace_controller Namespace 9325558e-c17c-4671-87ed-ecfcaf55cbff has been deleted
+[ncp GreenThread-34 I] nsx_ujo.ncp.nsx.policy.project_service Deleting project 9325558e-c17c-4671-87ed-ecfcaf55cbff
+[ncp GreenThread-34 I] nsx_ujo.ncp.nsx.policy.project_service Deleted SNAT rules [] for project 9325558e-c17c-4671-87ed-ecfcaf55cbff
+[ncp GreenThread-40 I] nsx_ujo.common.controller NetworkPolicyController worker 2 start sync [C] 2e660d1c-01d0-472a-bc00-592e2f656e57, queue size 2
+[ncp GreenThread-40 I] nsx_ujo.common.controller NetworkPolicyController worker 2 done sync 2e660d1c-01d0-472a-bc00-592e2f656e57
+[ncp GreenThread-38 I] nsx_ujo.common.controller NetworkPolicyController worker 0 start sync [C] 6bb521e0-55eb-4753-ab27-88d098f2422f, queue size 1
+[ncp GreenThread-38 I] nsx_ujo.common.controller NetworkPolicyController worker 0 done sync 6bb521e0-55eb-4753-ab27-88d098f2422f
+[ncp GreenThread-39 I] nsx_ujo.common.controller NetworkPolicyController worker 1 start sync [C] 9e39fb36-dc68-4a4c-b385-b7c92e6b42ab, queue size 0
+[ncp GreenThread-39 I] nsx_ujo.common.controller NetworkPolicyController worker 1 done sync 9e39fb36-dc68-4a4c-b385-b7c92e6b42ab
+[ncp GreenThread-34 W] vmware_nsxlib.v3.client The HTTP request returned error code 400, whereas 200 response codes were expected. Response body {'httpStatus': 'BAD_REQUEST', 'error_code': 500030, 'module_name': 'Policy', 'error_message': 'The object path=[/infra/segments/vm-domain-c8:0917850a-07d7-4ebf-b18f--vif-default-network-9325558e-c17c-4671-8-0] cannot be deleted as either it has children or it is being referenced by other objects path=[/infra/domains/default/groups/99993-990003-1003-dev-ns-seg]'}
+[ncp GreenThread-34 E security="True" errorCode="NCP00133"] nsx_ujo.ncp.nsx.policy.nsxapi delete_segment failed, cause: The object cannot be deleted as either it has children or it is being referenced by other objects, args: ('vm-domain-c8:0917850a-07d7-4ebf-b18f--vif-default-network-9325558e-c17c-4671-8[truncated]..., kwargs: {}
+[ncp GreenThread-34 W] nsx_ujo.common.controller NamespaceController worker 3 failed to sync 9325558e-c17c-4671-87ed-ecfcaf55cbff due to nsx manager exception: Unexpected error from backend manager (['10.193.132.15:443', '10.193.132.17:443', '10.193.132.18:443', '10.193.132.16:443']) for : The object cannot be deleted as either it has children or it is being referenced by other objects
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '816f76cb-fe4c-422b-8229-8a67283a073f', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}}" from ncp CLI client
+[ncp GreenThread-8 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '816f76cb-fe4c-422b-8229-8a67283a073f', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}} CLI server
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '95d067cf-b501-4286-8cf5-eae0c0e0c69b', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}}" from ncp CLI client
+[ncp GreenThread-21 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '95d067cf-b501-4286-8cf5-eae0c0e0c69b', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}} CLI server
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '9faea379-989f-4723-b912-c68d2dd9f48e', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}}" from ncp CLI client
+[ncp GreenThread-19 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '9faea379-989f-4723-b912-c68d2dd9f48e', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}} CLI server
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '3d3cf3ca-4765-4d41-8662-428832c2c864', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}}" from ncp CLI client
+[ncp GreenThread-7 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '3d3cf3ca-4765-4d41-8662-428832c2c864', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}} CLI server
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-26 I] nsx_ujo.common.controller NodeController worker 0 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 start sync [W] 373bfa4c-7110-4f27-85c5-456acc1e3ad0, queue size 0
+[ncp GreenThread-29 I] nsx_ujo.common.controller NodeController worker 3 done sync 373bfa4c-7110-4f27-85c5-456acc1e3ad0
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': '23745569-4406-4b04-8c5e-af504abfae3b', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}}" from ncp CLI client
+[ncp GreenThread-19 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': '23745569-4406-4b04-8c5e-af504abfae3b', 'cmd': 'get_nsx_manager_status', 'args': {'skip_standby': True}} CLI server
+[ncp GreenThread-5 I] cli.server.container_cli_server Received request "{'id': 'd449bd44-9d55-47ef-82c3-2875b0700cd4', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}}" from ncp CLI client
+[ncp GreenThread-18 I] cli.server.container_cli_server Executed client request "ncp" and sending response on {'id': 'd449bd44-9d55-47ef-82c3-2875b0700cd4', 'cmd': 'get_k8s_api_server_status', 'args': {'skip_unknown': True}} CLI server
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 start sync [W] 9706615b-d6df-4757-8515-1cec3999a766, queue size 0
+[ncp GreenThread-28 I] nsx_ujo.common.controller NodeController worker 2 done sync 9706615b-d6df-4757-8515-1cec3999a766
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 start sync [W] 64423e57-3503-44fa-bd0d-bbf21c0ed0de, queue size 0
+[ncp GreenThread-27 I] nsx_ujo.common.controller NodeController worker 1 done sync 64423e57-3503-44fa-bd0d-bbf21c0ed0de

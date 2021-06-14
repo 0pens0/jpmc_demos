@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pod-ubuntu
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pod-ubuntu
+  template:
+    metadata:
+      labels:
+        app: pod-ubuntu
+        enableIdentityHelper: "true"
+      annotations:
+        sidecar.istio.io/inject: "true"
+    spec:
+#      securityContext:
+#        runAsUser: 99
+#        fsGroup: 99
+      containers:
+      - name: pod-ubuntu
+        image: ubuntu-with-utils:v1
+        imagePullPolicy: IfNotPresent
+        args:
+        - /bin/sh
+        - -c
+        - echo hello;sleep 3600
+        ports:
+        - containerPort: 8443

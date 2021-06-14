@@ -1,0 +1,76 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: app1.allow-ingress-ui-policy
+  namespace: 99994-990004-1001-dev
+spec:
+  podSelector: {}
+  ingress:
+    - from:
+#      - namespaceSelector:
+#          matchLabels:
+#            namespace: 99994-990004-1000-dev
+      ports:
+      - port: 8080
+        protocol: TCP
+  egress:
+  - to:
+    - namespaceSelector:
+        matchLabels:
+          namespace: 99994-990004-1002-dev
+#    ports:
+#    - port: 3001
+#      protocol: TCP
+  policyTypes:
+  - Ingress
+  - Egress
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: app1.allow-1002-policy
+  namespace: 99994-990004-1002-dev
+spec:
+  podSelector: {}
+  ingress:
+  - from:
+    - namespaceSelector:
+        matchLabels:
+          namespace: 99994-990004-1001-dev
+#    ports:
+#    - port: 3001
+#      protocol: TCP
+  egress:
+  - to:
+    - namespaceSelector:
+        matchLabels:
+          namespace: 99994-990004-1003-dev
+#    ports:
+#    - port: 5432
+#      protocol: TCP
+#    - port: 6379
+#      protocol: TCP
+  policyTypes:
+  - Ingress
+  - Egress
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: app1.allow-1003-policy
+  namespace: 99994-990004-1003-dev
+spec:
+  podSelector: {}
+  ingress:
+  - from:
+    - namespaceSelector:
+        matchLabels:
+          namespace: 99994-990004-1002-dev
+#    ports:
+#    - port: 5432
+#      protocol: TCP
+#    - port: 6379
+#      protocol: TCP
+  policyTypes:
+  - Ingress
+  - Egress

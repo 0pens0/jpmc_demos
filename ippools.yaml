@@ -1,0 +1,600 @@
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99990-900002-9002-dev
+spec:
+   cidr: 172.50.50.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99990-900002-9002-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99990-900002-9002-prod
+spec:
+   cidr: 172.10.50.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99990-900002-9002-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99991-900001-900001-dev
+spec:
+   cidr: 172.50.1.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99991-900001-900001-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99991-900001-900001-prod
+spec:
+   cidr: 172.10.1.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99991-900001-900001-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99992-990002-1001-dev
+spec:
+   cidr: 172.50.22.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99992-990002-1001-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99992-990002-1002-dev
+spec:
+   cidr: 172.50.32.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99992-990002-1002-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99992-990002-1003-dev
+spec:
+   cidr: 172.50.42.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99992-990002-1003-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99993-990003-1001-dev
+spec:
+   cidr: 172.50.23.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99993-990003-1001-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99993-990003-1002-dev
+spec:
+   cidr: 172.50.33.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99993-990003-1002-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99993-990003-1003-dev
+spec:
+   cidr: 172.50.43.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99993-990003-1003-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99994-990004-1001-dev
+spec:
+   cidr: 172.50.24.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99994-990004-1001-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99994-990004-1002-dev
+spec:
+   cidr: 172.50.34.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99994-990004-1002-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99994-990004-1003-dev
+spec:
+   cidr: 172.50.44.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99994-990004-1003-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99995-990005-1001-dev
+spec:
+   cidr: 172.50.25.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99995-990005-1001-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99995-990005-1002-dev
+spec:
+   cidr: 172.50.35.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99995-990005-1002-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99995-990005-1003-dev
+spec:
+   cidr: 172.50.45.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99995-990005-1003-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99996-990006-1001-dev
+spec:
+   cidr: 172.50.26.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99996-990006-1001-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99996-990006-1002-dev
+spec:
+   cidr: 172.50.36.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99996-990006-1002-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99996-990006-1003-dev
+spec:
+   cidr: 172.50.46.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99996-990006-1003-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99997-990007-1001-dev
+spec:
+   cidr: 172.50.27.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99997-990007-1001-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99997-990007-1002-dev
+spec:
+   cidr: 172.50.37.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99997-990007-1002-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99997-990007-1003-dev
+spec:
+   cidr: 172.50.47.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99997-990007-1003-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99998-990008-1001-dev
+spec:
+   cidr: 172.50.28.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99998-990008-1001-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99998-990008-1002-dev
+spec:
+   cidr: 172.50.38.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99998-990008-1002-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99998-990008-1003-dev
+spec:
+   cidr: 172.50.48.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99998-990008-1003-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99992-990002-1001-prod
+spec:
+   cidr: 172.10.22.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99992-990002-1001-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99993-990003-1001-prod
+spec:
+   cidr: 172.10.23.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99993-990003-1001-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99994-990004-1001-prod
+spec:
+   cidr: 172.10.24.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99994-990004-1001-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99995-990005-1001-prod
+spec:
+   cidr: 172.10.25.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99995-990005-1001-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99996-990006-1001-prod
+spec:
+   cidr: 172.10.26.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99996-990006-1001-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99997-990007-1001-prod
+spec:
+   cidr: 172.10.27.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99997-990007-1001-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99998-990008-1001-prod
+spec:
+   cidr: 172.10.28.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99998-990008-1001-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99992-990002-1002-prod
+spec:
+   cidr: 172.10.32.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99992-990002-1002-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99993-990003-1002-prod
+spec:
+   cidr: 172.10.33.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99993-990003-1002-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99994-990004-1002-prod
+spec:
+   cidr: 172.10.34.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99994-990004-1002-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99995-990005-1002-prod
+spec:
+   cidr: 172.10.35.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99995-990005-1002-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99996-990006-1002-prod
+spec:
+   cidr: 172.10.36.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99996-990006-1002-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99997-990007-1002-prod
+spec:
+   cidr: 172.10.37.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99997-990007-1002-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99998-990008-1002-prod
+spec:
+   cidr: 172.10.38.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99998-990008-1002-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99992-990002-1003-prod
+spec:
+   cidr: 172.10.42.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99992-990002-1003-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99993-990003-1003-prod
+spec:
+   cidr: 172.10.43.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99993-990003-1003-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99994-990004-1003-prod
+spec:
+   cidr: 172.10.44.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99994-990004-1003-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99995-990005-1003-prod
+spec:
+   cidr: 172.10.45.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99995-990005-1003-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99996-990006-1003-prod
+spec:
+   cidr: 172.10.46.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99996-990006-1003-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99997-990007-1003-prod
+spec:
+   cidr: 172.10.47.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99997-990007-1003-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99998-990008-1003-prod
+spec:
+   cidr: 172.10.48.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99998-11003-1003-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99999-990009-9000-dev
+spec:
+   cidr: 172.50.60.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99999-990009-9000-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99999-990009-9000-prod
+spec:
+   cidr: 172.10.60.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99999-990009-9000-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99992-990002-1000-dev
+spec:
+   cidr: 172.80.20.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99992-990002-1000-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99994-990004-1000-dev
+spec:
+   cidr: 172.80.40.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99994-990004-1000-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99995-990005-1000-dev
+spec:
+   cidr: 172.80.50.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99995-990005-1000-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99996-990006-1000-dev
+spec:
+   cidr: 172.80.60.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99996-990006-1000-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99997-990007-1000-dev
+spec:
+   cidr: 172.80.70.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99997-990007-1000-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99998-990008-1000-dev
+spec:
+   cidr: 172.80.80.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99998-990008-1000-dev"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99992-990002-1000-prod
+spec:
+   cidr: 172.90.20.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99992-990002-1000-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99994-990004-1000-prod
+spec:
+   cidr: 172.90.40.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99994-990004-1000-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99995-990005-1000-prod
+spec:
+   cidr: 172.90.50.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99995-990005-1000-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99996-990006-1000-prod
+spec:
+   cidr: 172.90.60.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99996-990006-1000-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99997-990007-1000-prod
+spec:
+   cidr: 172.90.70.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99997-990007-1000-prod"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+   name: 99998-990008-1000-prod
+spec:
+   cidr: 172.90.80.0/24
+   ipipMode: Always
+   natOutgoing: true
+   nodeSelector: namespace == "99998-990008-1000-prod"
+---

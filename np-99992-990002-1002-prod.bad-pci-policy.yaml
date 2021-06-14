@@ -1,0 +1,26 @@
+kind: NetworkPolicy
+apiVersion: networking.k8s.io/v1
+metadata:
+  namespace: 99992-990002-1002-prod
+  name: 99992-990002-1002-prod.bad-pci-policy
+spec:
+  ingress:
+    - from:
+        - namespaceSelector:
+            matchLabels:
+              namespace: 99994-990004-1001-prod
+      ports:
+        - protocol: TCP
+          port: 443
+  egress:
+    - to:
+        - namespaceSelector:
+            matchLabels:
+              namespace: 99992-990002-1003-prod
+      ports:
+        - protocol: TCP
+          port: 1521
+  podSelector: {}
+  policyTypes:
+  - Egress
+  - Ingress  

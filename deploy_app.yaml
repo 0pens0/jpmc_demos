@@ -1,0 +1,326 @@
+#apiVersion: v1
+#kind: Namespace
+#metadata:
+#  name: 99992-990002-1000-dev
+#---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: 99992-990002-1001-dev
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: 99992-990002-1002-dev
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: 99992-990002-1003-dev
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app1-ui
+  namespace: 99992-990002-1001-dev
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app1-ui
+  template:
+    metadata:
+      labels:
+        app: app1-ui
+        enableIdentityHelper: "true"
+    spec:
+#      securityContext:
+#        runAsUser: 99
+#        fsGroup: 99
+      containers:
+      - name: app1-ui
+        image: ubuntu-with-utils:v1
+        imagePullPolicy: IfNotPresent
+        args:
+        - /bin/sh
+        - -c
+        - echo hello;sleep 3600
+        ports:
+        - containerPort: 8443
+#        livenessProbe:
+#          httpGet:
+#            path: /actuator/keepalive
+#            port: 8443
+#          initialDelaySeconds: 60
+#          periodSeconds: 15
+#          timeoutSeconds: 5
+#        readinessProbe:
+#          httpGet:
+#            path: /actuator/health
+#            port: 8443
+#          initialDelaySeconds: 60
+#          periodSeconds: 15
+#          timeoutSeconds: 5
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app1-as
+  namespace: 99992-990002-1002-dev
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app1-as
+  template:
+    metadata:
+      labels:
+        app: app1-as
+        enableIdentityHelper: "true"
+    spec:
+#      securityContext:
+#        runAsUser: 99
+#        fsGroup: 99
+      containers:
+      - name: app1-as
+        image: ubuntu-with-utils:v1
+        imagePullPolicy: IfNotPresent
+        args:
+        - /bin/sh
+        - -c
+        - echo hello;sleep 3600
+        ports:
+        - containerPort: 8443
+#        livenessProbe:
+#          httpGet:
+#            path: /actuator/keepalive
+#            port: 8443
+#          initialDelaySeconds: 60
+#          periodSeconds: 15
+#          timeoutSeconds: 5
+#        readinessProbe:
+#          httpGet:
+#            path: /actuator/health
+#            port: 8443
+#          initialDelaySeconds: 60
+#          periodSeconds: 15
+#          timeoutSeconds: 5
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app1-lds
+  namespace: 99992-990002-1003-dev
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app1-lds
+  template:
+    metadata:
+      labels:
+        app: app1-lds
+        enableIdentityHelper: "true"
+    spec:
+#      securityContext:
+#        runAsUser: 99
+#        fsGroup: 99
+      containers:
+      - name: app1-lds
+        image: ubuntu-with-utils:v1
+        imagePullPolicy: IfNotPresent
+        args:
+        - /bin/sh
+        - -c
+        - echo hello;sleep 3600
+        ports:
+        - containerPort: 8443
+#        livenessProbe:
+#          httpGet:
+#            path: /actuator/keepalive
+#            port: 8443
+#          initialDelaySeconds: 60
+#          periodSeconds: 15
+#          timeoutSeconds: 5
+#        readinessProbe:
+#          httpGet:
+#            path: /actuator/health
+#            port: 8443
+#          initialDelaySeconds: 60
+#          periodSeconds: 15
+#          timeoutSeconds: 5
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: app1-ui
+  name: app1-ui
+  namespace: 99992-990002-1001-dev
+spec:
+  ports:
+  - name: http
+    port: 443
+    protocol: TCP
+    targetPort: 8443
+  selector:
+    app: app1-ui
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: app1-as
+  name: app1-as
+  namespace: 99992-990002-1002-dev
+spec:
+  ports:
+  - name: http
+    port: 443
+    protocol: TCP
+    targetPort: 8443
+  selector:
+    app: app1-as
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: app1-lds
+  name: app1-lds
+  namespace: 99992-990002-1003-dev
+spec:
+  ports:
+  - name: http
+    port: 443
+    protocol: TCP
+    targetPort: 8443
+  selector:
+    app: app1-lds
+---
+#apiVersion: v1
+#data:
+#  tls.crt: base64 encoded cert
+#  tls.key: base64 encoded key
+#kind: Secret
+#metadata:
+#  name: <secret>
+#  namespace: 99992-990002-1000-dev
+#type: kubernetes.io/tls
+#---
+apiVersion: projectcontour.io/v1
+kind: HTTPProxy
+metadata:
+  name: app1
+#  namespace: 99992-990002-1000-dev
+  namespace: 99992-990002-1001-dev
+spec:
+  virtualhost:
+    fqdn: a99992.apps.mt-p2.wc1.gkp.corp.net
+#    tls:
+#      secretName: 99992-990002-1000-dev/<secret>
+#      clientValidation:
+#        caSecret: client-root-ca
+  routes:
+    - conditions:
+      - prefix: /
+#      permitInsecure: false
+      services:
+        - name: app1-ui
+          port: 443
+#          validation:
+#            caSecret: my-certificate-authority
+#            subjectName: a99992.apps.mt-p2.wc1.gkp.corp.ne
+---
+apiVersion: crd.projectcalico.org/v1
+kind: NetworkPolicy
+metadata:
+  name: default.allow-egress-to-app1-service
+#  namespace: 99992-990002-1000-dev
+  namespace: 99992-990002-1001-dev
+spec:
+  order: 1
+  selector: app == 'app1'
+  egress:
+    - action: Allow
+      protocol: TCP
+      destination:
+        domains:
+        - a99992.apps.mt-p2.wc1.gkp.corp.net
+        ports:
+        - 443
+  policyTypes:
+  - Egress
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: app1.allow-ingress-ui-policy
+  namespace: 99992-990002-1001-dev
+spec:
+  podSelector: {}
+  ingress:
+    - from:
+#      - namespaceSelector:
+#          matchLabels:
+#            namespace: 99992-990002-1000-dev
+      ports:
+      - port: 443
+        protocol: TCP
+  egress:
+  - to:
+    - namespaceSelector:
+        matchLabels:
+          namespace: 99992-990002-1002-dev
+    ports:
+    - port: 443
+      protocol: TCP
+  policyTypes:
+  - Ingress
+  - Egress
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: app1.allow-1002-policy
+  namespace: 99992-990002-1002-dev
+spec:
+  podSelector: {}
+  ingress:
+  - from:
+    - namespaceSelector:
+        matchLabels:
+          namespace: 99992-990002-1001-dev
+    ports:
+    - port: 443
+      protocol: TCP
+  egress:
+  - to:
+    - namespaceSelector:
+        matchLabels:
+          namespace: 99992-990002-1003-dev
+    ports:
+    - port: 443
+      protocol: TCP
+  policyTypes:
+  - Ingress
+  - Egress
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: app1.allow-1003-policy
+  namespace: 99992-990002-1003-dev
+spec:
+  podSelector: {}
+  ingress:
+  - from:
+    - namespaceSelector:
+        matchLabels:
+          namespace: 99992-990002-1002-dev
+    ports:
+    - port: 443
+      protocol: TCP
+  policyTypes:
+  - Ingress
+  - Egress

@@ -1,0 +1,47 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: app1-ui
+  name: app1-ui
+  namespace: 99992-990002-1001-dev
+spec:
+  ports:
+  - name: http
+    port: 443
+    protocol: TCP
+    targetPort: 8443
+  selector:
+    app: app1-ui
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: app1-as
+  name: app1-as
+  namespace: 99992-990002-1002-dev
+spec:
+  ports:
+  - name: http
+    port: 443
+    protocol: TCP
+    targetPort: 8443
+  selector:
+    app: app1-as
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: app1-lds
+  name: app1-lds
+  namespace: 99992-990002-1003-dev
+spec:
+  ports:
+  - name: http
+    port: 443
+    protocol: TCP
+    targetPort: 8443
+  selector:
+    app: app1-lds

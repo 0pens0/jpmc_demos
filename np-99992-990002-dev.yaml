@@ -1,0 +1,85 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  namespace: 99992-990002-1001-dev
+  name: 99992-990002-1001-dev.web-policy
+spec:
+  podSelector: {}
+  policyTypes:
+  - Egress
+  - Ingress
+  ingress:
+  - from:
+    - namespaceSelector: {}
+#        matchLabels:
+#          namespace: 99990-900002-9002-dev
+    ports:
+    - protocol: TCP
+      port: 22
+  egress:
+  - to:
+    - namespaceSelector:
+        matchLabels:
+          namespace: 99992-990002-1002-dev
+    ports:
+    - protocol: TCP
+      port: 22
+  - to:
+    ports:
+    - port: 53
+      protocol: UDP
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  namespace: 99992-990002-1002-dev
+  name: 99992-990002-1002-dev.app-policy
+spec:
+  podSelector: {}
+  policyTypes:
+  - Egress
+  - Ingress
+  ingress:
+  - from:
+    - namespaceSelector:
+        matchLabels:
+          namespace: 99992-990002-1001-dev
+    ports:
+    - protocol: TCP
+      port: 22
+  egress:
+  - to:
+    - namespaceSelector:
+        matchLabels:
+          namespace: 99992-990002-1003-dev
+    ports:
+    - protocol: TCP
+      port: 22
+  - to:
+    ports:
+    - port: 53
+      protocol: UDP
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  namespace: 99992-990002-1003-dev
+  name: 99992-990002-1003-dev.db-policy
+spec:
+  podSelector: {}
+  policyTypes:
+  - Egress
+  - Ingress
+  ingress:
+  - from:
+    - namespaceSelector:
+        matchLabels:
+          namespace: 99992-990002-1002-dev
+    ports:
+    - protocol: TCP
+      port: 22
+  egress:
+  - to:
+    ports:
+    - port: 53
+      protocol: UDP

@@ -1,0 +1,26 @@
+kind: NetworkPolicy
+apiVersion: networking.k8s.io/v1
+metadata:
+  namespace: 99993-990003-1001-prod
+  name: 99993-990003-1001-prod.bad-perimeter-ingress-policy
+spec:
+  ingress:
+    - from:
+        - namespaceSelector:
+            matchLabels:
+              namespace: 99992-990002-1000-prod
+      ports:
+        - protocol: TCP
+          port: 443
+  egress:
+    - to:
+        - namespaceSelector:
+            matchLabels:
+              namespace: 99993-990003-1002-prod
+      ports:
+        - protocol: TCP
+          port: 443
+  podSelector: {}
+  policyTypes:
+  - Egress
+  - Ingress  

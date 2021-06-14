@@ -1,0 +1,51 @@
+{
+	"request": {
+		"object": {
+			"kind": "NetworkPolicy",
+			"apiVersion": "networking.k8s.io/v1",
+			"metadata": {
+				"namespace": "99992-990002-1002-dev",
+				"name": "99992-990002-1002-dev.good-policy"
+			},
+			"spec": {
+				"ingress": [
+					{
+						"from": [
+							{
+								"namespaceSelector": {
+									"matchLabels": {
+										"namespace": "99992-990002-1001-dev"
+									}
+								}
+							}
+						]
+					}
+				],
+				"egress": [
+					{
+						"to": [
+							{
+								"namespaceSelector": {
+									"matchLabels": {
+										"namespace": "99992-990002-1003-dev"
+									}
+								}
+							}
+						],
+						"ports": [
+							{
+								"protocol": "TCP",
+								"port": 1521
+							}
+						]
+					}
+				],
+				"podSelector": {},
+				"policyTypes": [
+					"Egress",
+					"Ingress"
+				]
+			}
+		}
+	}
+}

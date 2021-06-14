@@ -1,0 +1,65 @@
+kind: NetworkPolicy
+apiVersion: networking.k8s.io/v1
+metadata:
+  namespace: 99990-900002-1002-dev 
+  name: 99990-900002-1002-dev.allow-mgmt 
+spec:
+  podSelector: {}
+  policyTypes:
+  - Egress
+  - Ingress
+  ingress:
+     - from:
+        - namespaceSelector:
+            matchLabels:
+              namespace: 99999-9000-1002-dev
+---
+kind: NetworkPolicy
+apiVersion: networking.k8s.io/v1
+metadata:
+  namespace: 99993-990003-1003-dev
+  name: 99993-990003-1003-dev.allow-mgmt
+spec:
+  podSelector: {}
+  policyTypes:
+  - Egress
+  - Ingress
+  ingress:
+     - from:
+        - namespaceSelector:
+            matchLabels:
+              namespace: 99999-9000-1002-dev
+---
+kind: NetworkPolicy
+apiVersion: networking.k8s.io/v1
+metadata:
+  namespace: 99994-990004-1001-dev
+  name: 99994-990004-1001-dev.allow-mgmt
+  labels:
+    user: S000000
+spec:
+  podSelector: {}
+  policyTypes:
+  - Egress
+  - Ingress
+  ingress:
+     - from:
+        - namespaceSelector:
+            matchLabels:
+              namespace: 99999-9000-1002-dev
+---
+kind: NetworkPolicy
+apiVersion: networking.k8s.io/v1
+metadata:
+  namespace: 99994-990004-1002-dev
+  name: 99994-990004-1002-dev.allow-mgmt
+spec:
+  podSelector: {}
+  policyTypes:
+  - Egress
+  - Ingress
+  ingress:
+     - from:
+        - namespaceSelector:
+            matchLabels:
+              namespace: 99999-9000-1002-dev

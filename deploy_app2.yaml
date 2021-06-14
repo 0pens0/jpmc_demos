@@ -1,0 +1,97 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: 99997-990007-1001-dev
+  labels:
+    istio-injection: enabled
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app2-ui
+  namespace: 99997-990007-1001-dev
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app2-ui
+  template:
+    metadata:
+      labels:
+        app: app2-ui
+        enableIdentityHelper: "true"
+      annotations:
+        sidecar.istio.io/inject: "true"
+    spec:
+#      securityContext:
+#        runAsUser: 99
+#        fsGroup: 99
+      containers:
+      - name: app2-ui
+        image: ubuntu-with-utils:v1
+        imagePullPolicy: IfNotPresent
+        args:
+        - /bin/sh
+        - -c
+        - echo hello;sleep 3600
+        ports:
+        - containerPort: 8443
+---
+#apiVersion: v1
+#kind: Service
+#metadata:
+#  labels:
+#    app: app2-ui
+#  name: app2-ui
+#  namespace: 99997-990007-1001-dev
+#spec:
+#  ports:
+#  - name: http
+#    port: 443
+#    protocol: TCP
+#    targetPort: 8443
+#  selector:
+#    app: app1-ui
+#---
+#apiVersion: networking.k8s.io/v1
+#kind: NetworkPolicy
+#metadata:
+#  name: app1.allow-ingress-ui-policy
+#  namespace: 99992-990002-1001-dev
+#spec:
+#  podSelector: {}
+#  ingress:
+#    - from:
+#      - namespaceSelector:
+#          matchLabels:
+#            namespace: 99992-990002-1000-dev
+#      ports:
+#      - port: 443
+#        protocol: TCP
+#  egress:
+#  - to:
+#    - namespaceSelector:
+#        matchLabels:
+#          namespace: 99992-990002-1002-dev
+#    ports:
+#    - port: 443
+#      protocol: TCP
+#  policyTypes:
+#  - Ingress
+#  - Egress
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: app2-ui
+  name: app2-ui
+  namespace: 99997-990007-1001-dev
+spec:
+  ports:
+  - name: http
+    port: 443
+    protocol: TCP
+    targetPort: 8443
+  selector:
+    app: app2-ui

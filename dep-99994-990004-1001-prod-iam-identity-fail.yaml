@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app1-ui
+  namespace: 99994-990004-1001-prod
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: app1-ui
+  template:
+    metadata:
+      labels:
+        app: app1-ui
+    spec:
+      securityContext:
+        runAsUser: 99
+        fsGroup: 99
+      containers:
+      - name: app1-ui
+        image: nginx
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8443
+        livenessProbe:
+          httpGet:
+            path: /actuator/keepalive
+            port: 8443
+          initialDelaySeconds: 60
+          periodSeconds: 15
+          timeoutSeconds: 5
+        readinessProbe:
+          httpGet:
+            path: /actuator/health
+            port: 8443
+          initialDelaySeconds: 60
+          periodSeconds: 15
+          timeoutSeconds: 5

@@ -1,0 +1,51 @@
+#apiVersion: v1
+#data:
+#  tls.crt: base64 encoded cert
+#  tls.key: base64 encoded key
+#kind: Secret
+#metadata:
+#  name: <secret>
+#  namespace: 99992-990002-1001-dev
+#type: kubernetes.io/tls
+#---
+apiVersion: projectcontour.io/v1
+kind: HTTPProxy
+metadata:
+  name: app1
+  namespace: 99992-990002-1001-dev
+spec:
+  virtualhost:
+    fqdn: a99992.apps.mt-p2.wc1.gkp.corp.net
+#    tls:
+#      secretName: 99992-990002-1001-dev/<secret>
+#      clientValidation:
+#        caSecret: client-root-ca
+  routes:
+    - conditions:
+      - prefix: /
+#      permitInsecure: false
+      services:
+        - name: app1-ui
+          port: 443
+#          validation:
+#            caSecret: my-certificate-authority
+#            subjectName: a99992.apps.mt-p2.wc1.gkp.corp.ne
+---
+apiVersion: crd.projectcalico.org/v1
+kind: NetworkPolicy
+metadata:
+  name: default.allow-egress-to-app1-service
+  namespace: 99992-990002-1001-dev
+spec:
+  order: 1
+  selector: app == 'app1'
+  egress:
+    - action: Allow
+      protocol: TCP
+      destination:
+        domains:
+        - a99992.apps.mt-p2.wc1.gkp.corp.net
+        ports:
+        - 443
+  policyTypes:
+  - Egress

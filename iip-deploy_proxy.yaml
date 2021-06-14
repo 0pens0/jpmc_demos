@@ -1,0 +1,16 @@
+apiVersion: projectcontour.io/v1
+kind: HTTPProxy
+metadata:
+  name: appl
+  namespace: 99992-990002-1000-prod
+spec:
+  virtualhost:
+    fqdn: a99992.apps.mt-p2.wc1.gkp.corp.net
+#    tls:
+#      secretName: ingress-contour/ingress-contour-default-ssl-cert
+  routes:
+    - conditions:
+      - prefix: /
+      services:
+        - name: appl-ui
+          port: 443

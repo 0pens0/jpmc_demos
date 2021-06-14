@@ -1,0 +1,241 @@
+{
+  "agent_id": "ae5449ab-b07c-4e8d-abfb-b9eb20293d36",
+  "allowed": {
+    "value": true
+  },
+  "columns": [
+    {
+      "key": "username",
+      "type": "string",
+      "value": "minikube-user"
+    },
+    {
+      "key": "operation",
+      "type": "string",
+      "value": "UPDATE"
+    },
+    {
+      "key": "kind",
+      "type": "string",
+      "value": "Namespace"
+    },
+    {
+      "key": "name",
+      "type": "string",
+      "value": "99990-900002-9002-dev"
+    }
+  ],
+  "decision_id": "bb6cd3d0-7369-4bb5-a2b1-88d40e5e91b9",
+  "input": {
+    "apiVersion": "admission.k8s.io/v1",
+    "kind": "AdmissionReview",
+    "request": {
+      "dryRun": false,
+      "kind": {
+        "group": "",
+        "kind": "Namespace",
+        "version": "v1"
+      },
+      "name": "99990-900002-9002-dev",
+      "namespace": "99990-900002-9002-dev",
+      "object": {
+        "apiVersion": "v1",
+        "kind": "Namespace",
+        "metadata": {
+          "annotations": {
+            "cni.projectcalico.org/ipv4pools": "[\"99990-900002-9002-dev\"]",
+            "ingress-whitelist": "*.mt-d1.nanec01.icp.test.net"
+          },
+          "creationTimestamp": "2021-04-16T15:14:21Z",
+          "labels": {
+            "gkp_appId": "99990",
+            "gkp_deploymentModuleId": "900002",
+            "gkp_env": "prod",
+            "gkp_moduleType": "9002",
+            "gkp_namespace": "99990-900002-9002-dev",
+            "vSphereClusterID": "",
+            "xxx": "yyy"
+          },
+          "managedFields": [
+            {
+              "apiVersion": "v1",
+              "fieldsType": "FieldsV1",
+              "fieldsV1": {
+                "f:status": {
+                  "f:phase": {}
+                }
+              },
+              "manager": "kubectl-create",
+              "operation": "Update",
+              "time": "2021-04-16T15:14:21Z"
+            },
+            {
+              "apiVersion": "v1",
+              "fieldsType": "FieldsV1",
+              "fieldsV1": {
+                "f:metadata": {
+                  "f:labels": {
+                    "f:gkp_env": {},
+                    "f:xxx": {}
+                  }
+                }
+              },
+              "manager": "kubectl-label",
+              "operation": "Update",
+              "time": "2021-04-16T15:31:20Z"
+            }
+          ],
+          "name": "99990-900002-9002-dev",
+          "resourceVersion": "273376",
+          "uid": "caee8709-c181-4faf-a9d6-1258927e0665"
+        },
+        "spec": {
+          "finalizers": [
+            "kubernetes"
+          ]
+        },
+        "status": {
+          "phase": "Active"
+        }
+      },
+      "oldObject": {
+        "apiVersion": "v1",
+        "kind": "Namespace",
+        "metadata": {
+          "annotations": {
+            "cni.projectcalico.org/ipv4pools": "[\"99990-900002-9002-dev\"]",
+            "ingress-whitelist": "*.mt-d1.nanec01.icp.test.net"
+          },
+          "creationTimestamp": "2021-04-16T15:14:21Z",
+          "labels": {
+            "gkp_appId": "99990",
+            "gkp_deploymentModuleId": "900002",
+            "gkp_env": "dev",
+            "gkp_moduleType": "9002",
+            "gkp_namespace": "99990-900002-9002-dev",
+            "vSphereClusterID": ""
+          },
+          "name": "99990-900002-9002-dev",
+          "resourceVersion": "273376",
+          "uid": "caee8709-c181-4faf-a9d6-1258927e0665"
+        },
+        "spec": {
+          "finalizers": [
+            "kubernetes"
+          ]
+        },
+        "status": {
+          "phase": "Active"
+        }
+      },
+      "operation": "UPDATE",
+      "options": {
+        "apiVersion": "meta.k8s.io/v1",
+        "fieldManager": "kubectl-label",
+        "kind": "UpdateOptions"
+      },
+      "requestKind": {
+        "group": "",
+        "kind": "Namespace",
+        "version": "v1"
+      },
+      "requestResource": {
+        "group": "",
+        "resource": "namespaces",
+        "version": "v1"
+      },
+      "resource": {
+        "group": "",
+        "resource": "namespaces",
+        "version": "v1"
+      },
+      "uid": "fea2796a-bbb6-41ba-a4e5-ce4715be8451",
+      "userInfo": {
+        "groups": [
+          "system:masters",
+          "system:authenticated"
+        ],
+        "username": "minikube-user"
+      }
+    }
+  },
+  "labels": {
+    "id": "ae5449ab-b07c-4e8d-abfb-b9eb20293d36",
+    "system-id": "fb06aa19f4c440068aa3c5060ba3a2bc",
+    "system-type": "kubernetes:v2",
+    "version": "0.26.0"
+  },
+  "metrics": {
+    "counter_server_query_cache_hit": 1,
+    "timer_rego_external_resolve_ns": 5162,
+    "timer_rego_query_eval_ns": 3385251,
+    "timer_server_handler_ns": 3463437
+  },
+  "path": "policy/com.styra.kubernetes.validating/main/main",
+  "policy_type": "validating",
+  "received": "2021-04-16T15:31:32.730Z",
+  "requested_by": "10.0.2.15:14228",
+  "result": {
+    "apiVersion": "admission.k8s.io/v1",
+    "kind": "AdmissionReview",
+    "outcome": {
+      "allowed": true,
+      "decision_type": "ALLOWED",
+      "notifications": [],
+      "policy_type": "validating",
+      "stacks": {
+        "bf4d087f378c4aafaa131780c07f9f07": {
+          "enforced": [],
+          "monitored": []
+        },
+        "c7e3024b9b3d4562aeeaa701411b5e39": {
+          "enforced": [],
+          "monitored": []
+        },
+        "d50b450a555c4c24ab3fc8dd060e5f3e": {
+          "enforced": [],
+          "monitored": []
+        },
+        "e2e5a5d8fc0443c59060f3a1a52efd7f": {
+          "enforced": [],
+          "monitored": []
+        },
+        "fb75834f92e54ec1b48d43fc6d3e327f": {
+          "enforced": [],
+          "monitored": []
+        }
+      },
+      "system": {
+        "enforced": [],
+        "features": {},
+        "labels": {
+          "a2a-rules": "true",
+          "connectivity-rules": "true",
+          "iam-rules": "true",
+          "naming-rules": "true",
+          "ops-rules": "true",
+          "system-type": "kubernetes"
+        },
+        "monitored": []
+      },
+      "system_type": "kubernetes"
+    },
+    "response": {
+      "allowed": true,
+      "status": {
+        "code": 200
+      },
+      "uid": "fea2796a-bbb6-41ba-a4e5-ce4715be8451"
+    }
+  },
+  "stacks": [
+    "fb75834f92e54ec1b48d43fc6d3e327f",
+    "bf4d087f378c4aafaa131780c07f9f07",
+    "c7e3024b9b3d4562aeeaa701411b5e39",
+    "d50b450a555c4c24ab3fc8dd060e5f3e",
+    "e2e5a5d8fc0443c59060f3a1a52efd7f"
+  ],
+  "system_id": "fb06aa19f4c440068aa3c5060ba3a2bc",
+  "system_type": "kubernetes",
+  "timestamp": "2021-04-16T15:31:20.463Z"
+}

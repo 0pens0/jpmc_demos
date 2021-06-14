@@ -1,0 +1,137 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app1-ui
+  namespace: 99992-990002-1001-dev
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app1-ui
+  template:
+    metadata:
+      labels:
+        app: app1-ui
+        enableIdentityHelper: "true"
+      annotations:
+        sidecar.istio.io/inject: "true"
+    spec:
+#      securityContext:
+#        runAsUser: 99
+#        fsGroup: 99
+      containers:
+      - name: app1-ui
+        image: ubuntu-with-utils:v1
+        imagePullPolicy: IfNotPresent
+        args:
+        - /bin/sh
+        - -c
+        - echo hello;sleep 3600
+        ports:
+        - containerPort: 8443
+#        livenessProbe:
+#          httpGet:
+#            path: /actuator/keepalive
+#            port: 8443
+#          initialDelaySeconds: 60
+#          periodSeconds: 15
+#          timeoutSeconds: 5
+#        readinessProbe:
+#          httpGet:
+#            path: /actuator/health
+#            port: 8443
+#          initialDelaySeconds: 60
+#          periodSeconds: 15
+#          timeoutSeconds: 5
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app1-as
+  namespace: 99992-990002-1002-dev
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app1-as
+  template:
+    metadata:
+      labels:
+        app: app1-as
+        enableIdentityHelper: "true"
+      annotations:
+        sidecar.istio.io/inject: "true"
+    spec:
+#      securityContext:
+#        runAsUser: 99
+#        fsGroup: 99
+      containers:
+      - name: app1-as
+        image: ubuntu-with-utils:v1
+        imagePullPolicy: IfNotPresent
+        args:
+        - /bin/sh
+        - -c
+        - echo hello;sleep 3600
+        ports:
+        - containerPort: 8443
+#        livenessProbe:
+#          httpGet:
+#            path: /actuator/keepalive
+#            port: 8443
+#          initialDelaySeconds: 60
+#          periodSeconds: 15
+#          timeoutSeconds: 5
+#        readinessProbe:
+#          httpGet:
+#            path: /actuator/health
+#            port: 8443
+#          initialDelaySeconds: 60
+#          periodSeconds: 15
+#          timeoutSeconds: 5
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app1-lds
+  namespace: 99992-990002-1003-dev
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app1-lds
+  template:
+    metadata:
+      labels:
+        app: app1-lds
+        enableIdentityHelper: "true"
+      annotations:
+        sidecar.istio.io/inject: "true"
+    spec:
+#      securityContext:
+#        runAsUser: 99
+#        fsGroup: 99
+      containers:
+      - name: app1-lds
+        image: ubuntu-with-utils:v1
+        imagePullPolicy: IfNotPresent
+        args:
+        - /bin/sh
+        - -c
+        - echo hello;sleep 3600
+        ports:
+        - containerPort: 8443
+#        livenessProbe:
+#          httpGet:
+#            path: /actuator/keepalive
+#            port: 8443
+#          initialDelaySeconds: 60
+#          periodSeconds: 15
+#          timeoutSeconds: 5
+#        readinessProbe:
+#          httpGet:
+#            path: /actuator/health
+#            port: 8443
+#          initialDelaySeconds: 60
+#          periodSeconds: 15
+#          timeoutSeconds: 5

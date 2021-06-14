@@ -1,0 +1,150 @@
+{
+    "apiVersion": "v1",
+    "kind": "Namespace",
+    "metadata": {
+        "annotations": {
+            "ls_id-0": "3092329d-c8ec-4ea0-be16-990ec38e4941",
+            "ncp/extpoolid": "domain-c8:0917850a-07d7-4ebf-b18f-e801dc416ec8-ippool-10-193-132-193-10-193-132-254",
+            "ncp/router_id": "t1_0854baab-7637-44ea-bdbd-1632bb86bdb2_rtr",
+            "ncp/snat_ip": "10.193.132.199",
+            "ncp/subnet-0": "10.244.0.80/28"
+        },
+        "creationTimestamp": "2021-06-07T17:45:17Z",
+        "deletionTimestamp": "2021-06-07T18:01:07Z",
+        "managedFields": [
+            {
+                "apiVersion": "v1",
+                "fieldsType": "FieldsV1",
+                "fieldsV1": {
+                    "f:status": {
+                        "f:phase": {}
+                    }
+                },
+                "manager": "kubectl-create",
+                "operation": "Update",
+                "time": "2021-06-07T17:45:17Z"
+            },
+            {
+                "apiVersion": "v1",
+                "fieldsType": "FieldsV1",
+                "fieldsV1": {
+                    "f:metadata": {
+                        "f:annotations": {
+                            ".": {},
+                            "f:ls_id-0": {},
+                            "f:ncp/extpoolid": {},
+                            "f:ncp/router_id": {},
+                            "f:ncp/snat_ip": {},
+                            "f:ncp/subnet-0": {}
+                        }
+                    }
+                },
+                "manager": "nsx-ncp-54ccd68d5d-rgl67",
+                "operation": "Update",
+                "time": "2021-06-07T17:45:25Z"
+            },
+            {
+                "apiVersion": "v1",
+                "fieldsType": "FieldsV1",
+                "fieldsV1": {
+                    "f:status": {
+                        "f:conditions": {
+                            ".": {},
+                            "k:{\"type\":\"NamespaceContentRemaining\"}": {
+                                ".": {},
+                                "f:lastTransitionTime": {},
+                                "f:message": {},
+                                "f:reason": {},
+                                "f:status": {},
+                                "f:type": {}
+                            },
+                            "k:{\"type\":\"NamespaceDeletionContentFailure\"}": {
+                                ".": {},
+                                "f:lastTransitionTime": {},
+                                "f:message": {},
+                                "f:reason": {},
+                                "f:status": {},
+                                "f:type": {}
+                            },
+                            "k:{\"type\":\"NamespaceDeletionDiscoveryFailure\"}": {
+                                ".": {},
+                                "f:lastTransitionTime": {},
+                                "f:message": {},
+                                "f:reason": {},
+                                "f:status": {},
+                                "f:type": {}
+                            },
+                            "k:{\"type\":\"NamespaceDeletionGroupVersionParsingFailure\"}": {
+                                ".": {},
+                                "f:lastTransitionTime": {},
+                                "f:message": {},
+                                "f:reason": {},
+                                "f:status": {},
+                                "f:type": {}
+                            },
+                            "k:{\"type\":\"NamespaceFinalizersRemaining\"}": {
+                                ".": {},
+                                "f:lastTransitionTime": {},
+                                "f:message": {},
+                                "f:reason": {},
+                                "f:status": {},
+                                "f:type": {}
+                            }
+                        }
+                    }
+                },
+                "manager": "kube-controller-manager",
+                "operation": "Update",
+                "time": "2021-06-07T18:01:13Z"
+            }
+        ],
+        "name": "99994-990004-1002-dev",
+        "resourceVersion": "72744169",
+        "selfLink": "/api/v1/namespaces/99994-990004-1002-dev",
+        "uid": "0854baab-7637-44ea-bdbd-1632bb86bdb2"
+    },
+    "spec": {
+        "finalizers": [
+        ]
+    },
+    "status": {
+        "conditions": [
+            {
+                "lastTransitionTime": "2021-06-07T18:01:13Z",
+                "message": "All resources successfully discovered",
+                "reason": "ResourcesDiscovered",
+                "status": "False",
+                "type": "NamespaceDeletionDiscoveryFailure"
+            },
+            {
+                "lastTransitionTime": "2021-06-07T18:01:13Z",
+                "message": "All legacy kube types successfully parsed",
+                "reason": "ParsedGroupVersions",
+                "status": "False",
+                "type": "NamespaceDeletionGroupVersionParsingFailure"
+            },
+            {
+                "lastTransitionTime": "2021-06-07T18:01:13Z",
+                "message": "All content successfully deleted, may be waiting on finalization",
+                "reason": "ContentDeleted",
+                "status": "False",
+                "type": "NamespaceDeletionContentFailure"
+            },
+            {
+                "lastTransitionTime": "2021-06-07T18:01:13Z",
+                "message": "Some resources are remaining: virtualmachines.vmoperator.vmware.com has 1 resource instances",
+                "reason": "SomeResourcesRemain",
+                "status": "True",
+                "type": "NamespaceContentRemaining"
+            },
+            {
+                "lastTransitionTime": "2021-06-07T18:01:13Z",
+                "message": "Some content in the namespace has finalizers remaining: virtualmachine.vmoperator.vmware.com in 1 resource instances",
+                "reason": "SomeFinalizersRemain",
+                "status": "True",
+                "type": "NamespaceFinalizersRemaining"
+            }
+        ],
+        "phase": "Terminating"
+    }
+}

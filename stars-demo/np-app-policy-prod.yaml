@@ -1,0 +1,30 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  namespace: 99994-990004-1002-prod
+  name: 99994-990004-1002-prod.app-policy
+spec:
+  podSelector: {}
+  policyTypes:
+  - Egress
+  - Ingress
+  ingress:
+  - from:
+    - namespaceSelector:
+        matchLabels:
+          namespace: 99994-990004-1001-prod
+    ports:
+    - protocol: TCP
+      port: 9443
+  egress:
+  - to:
+    - namespaceSelector:
+        matchLabels:
+          namespace: 99993-990003-1003-prod
+    ports:
+    - protocol: TCP
+      port: 1521
+  - to:
+    ports:
+    - port: 53
+      protocol: UDP

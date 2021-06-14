@@ -1,0 +1,61 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  namespace: 99991-900001-900001-dev
+  name: 99991-900001-900001-dev.psaas-policy
+spec:
+  podSelector: {}
+  policyTypes:
+  - Egress
+  - Ingress
+  ingress:
+  - from:
+    - namespaceSelector:
+        matchLabels:
+          namespace: 99990-900002-1002-dev
+    ports:
+    - protocol: TCP
+      port: 443
+  egress:
+  - to:
+    - namespaceSelector:
+        matchLabels:
+          namespace: 99994-990004-1001-dev
+    ports:
+    - protocol: TCP
+      port: 443
+  - to:
+    ports:
+    - port: 53
+      protocol: UDP
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  namespace: 99991-900001-900001-prod
+  name: 99991-900001-900001-prod.psaas-policy
+spec:
+  podSelector: {}
+  policyTypes:
+  - Egress
+  - Ingress
+  ingress:
+  - from:
+    - namespaceSelector:
+        matchLabels:
+          namespace: 99990-900002-1002-prod
+    ports:
+    - protocol: TCP
+      port: 443
+  egress:
+  - to:
+    - namespaceSelector:
+        matchLabels:
+          namespace: 99994-990004-1001-prod
+    ports:
+    - protocol: TCP
+      port: 443
+  - to:
+    ports:
+    - port: 53
+      protocol: UDP

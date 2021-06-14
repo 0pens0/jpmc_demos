@@ -1,0 +1,17 @@
+kind: NetworkPolicy
+apiVersion: networking.k8s.io/v1
+metadata:
+  namespace: 99993-990003-1003-dev
+  name: 99993-990003-1003-dev.bad-module-chaining-policy
+spec:
+  podSelector: {}
+  policyTypes:
+  - Ingress  
+  ingress:
+    - from:
+        - namespaceSelector:
+            matchLabels:
+              namespace: 99994-990004-1001-dev
+      ports:
+        - protocol: TCP
+          port: 1521

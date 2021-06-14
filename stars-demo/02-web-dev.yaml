@@ -1,0 +1,40 @@
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: 99994-990004-1001-dev
+---
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: web 
+  namespace: 99994-990004-1001-dev
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        namespace: 99994-990004-1001-dev 
+    spec:
+      containers:
+      - name: web 
+        image: calico/star-probe:v0.1.0
+        imagePullPolicy: Always
+        command:
+        - probe
+        - --http-port=443
+        - --http-probe-seconds=10
+        - --urls=http://client.99990-900002-1002-dev:9000/status,http://psaas.99991-900001-900001-dev:443/status,http://app.99994-990004-1002-dev:9443/status,http://db.99993-990003-1003-dev:1521/status,http://client.99990-900002-1002-prod:9000/status,http://psaas.99991-900001-900001-prod:443/status,http://web.99994-990004-1001-prod:443/status,http://app.99994-990004-1002-prod:9443/status,http://db.99993-990003-1003-prod:1521/status
+        ports:
+        - containerPort: 443 
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: web 
+  namespace: 99994-990004-1001-dev
+spec:
+  ports:
+  - port: 443 
+    targetPort: 443 
+  selector:
+    namespace: 99994-990004-1001-dev

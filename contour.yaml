@@ -1,0 +1,16 @@
+apiVersion: projectcontour.io/v1
+kind: HTTPProxy
+metadata:
+  name: sample-application
+  namespace: <appID>-<deploymentModuleID>-ui-dev
+spec:
+  virtualhost:
+    fqdn: sample-application.apps.mt-d3.belv.gkp.jpmchase.net
+    tls:
+      secretName: ingress-contour/ingress-contour-default-ssl-cert
+  routes:
+    - conditions:
+      - prefix: /
+      services:
+        - name: sample-application-ui
+          port: 443
